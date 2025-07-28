@@ -2,9 +2,9 @@
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
         <div *ngFor="let item of carouslProducts; let i = index" class="hidden duration-700 ease-in-out"
-            [attr.data-carousel-item]="i === 0 ? 'active' : ''">
-            <img [src]="item.image" class="absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="...">
+            data-carousel-item [class.block]="i === 0" [class.hidden]="i !== 0">
+            <img [src]="item.image" class="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..." />
         </div>
 
     </div>
