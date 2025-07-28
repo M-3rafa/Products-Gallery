@@ -1,60 +1,30 @@
-# Ecommerce
+Products-Gallery
+This project is a fully functional and responsive Products Gallery web application built using Angular and the Fake Store API. It offers users a seamless e-commerce experience with features like:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+🔎 Product browsing
+🧮 Filtering and sorting
+📱 Mobile-friendly design
+🛒 Cart management // Coming soon
+The goal is to simulate a modern online shopping platform that is fast, user-friendly, and modularly built using best Angular practices.
 
-## Development server
+🖼 Demo
+👉 Live Preview: https://products-gallery-dcly.vercel.app/#/home
+🧱 Tech Stack
+Layer	Technologies Used
+🧠 Frontend	Angular 19+, TypeScript
+💅 Styling	TailwindCSS, Flowbite UI
+📦 Backend	Fake Store API (https://fakestoreapi.com)
+♻️ State	RxJS, Services, Observables
+🚀 Features
+✅ Product List View with Responsive Cards
+✅ Filtering by Category / Price Range
+✅ Sorting by Price, Name
+✅ Product Details Page
+✅ Dark Mode Ready (via Tailwind & Flowbite) //very soon
+● 🧱 Tech Stack Used: -Angular 19
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-"# Products-Gallery" 
+TailwindCSS
+Flowbite
+RxJS
+TypeScript
+API
